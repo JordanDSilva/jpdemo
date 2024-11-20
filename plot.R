@@ -5,6 +5,10 @@ library(Rfits)
 library(Rwcs)
 library(celestial)
 
+dir.create(
+  "~/jpdemo/plots/", recursive = TRUE, showWarnings = FALSE
+)
+
 df = bind_cols(
   fread("~/jpdemo/JP/ProFound/Detects/2738002001/NRCA/2738002001_NRCA_segstats.csv"),
   fread("~/jpdemo/JP/ProFound/Measurements/2738002001/NRCA/2738002001_NRCA_photometry.csv")
