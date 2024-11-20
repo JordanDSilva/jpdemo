@@ -10,4 +10,5 @@ remotes::install_github("asgr/Rwcs")
 remotes::install_github("asgr/Rfits")
 remotes::install_github("asgr/ProPane")
 remotes::install_github("asgr/ProFound")
-
+remotes::install_github("asgr/cmaeshpc")
+remotes::install_github("asgr/Highlander")
