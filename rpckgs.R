@@ -3,7 +3,6 @@ dir.create("~/jpdemo/pckgs", recursive = TRUE)
 
 install.packages(c("matrixStats", "dplyr", "foreach", "doParallel", "data.table", "Cairo", "utils", "stringr", "remotes"), repos = "https://cran.csiro.au/")
 
-q()
 remotes::install_github("asgr/magicaxis")
 remotes::install_github("asgr/celestial")
 remotes::install_github("asgr/imager")
